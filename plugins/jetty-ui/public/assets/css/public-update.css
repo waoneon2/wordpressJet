@@ -1,0 +1,424 @@
+@media screen and (max-width: 782px) {
+	html #wpadminbar #wp-admin-bar-jetty-name {
+		width: auto;
+	}
+}
+@media screen and (max-width: 560px) {
+	html #wpadminbar #wp-admin-bar-jetty-name {
+		width: auto;
+	}
+}
+html #wpadminbar #wp-admin-bar-jetty-logo {
+	width: 160px;
+}
+#wpadminbar li#wp-admin-bar-jetty-current-time,
+#wpadminbar li#wp-admin-bar-jetty-site-status {
+	display: none;
+}
+html #wpadminbar #wp-admin-bar-jetty-name {
+	padding-left: 20px;
+}
+
+html #wpadminbar #wp-admin-bar-jetty-logo>.ab-item {
+    background-size: 70% auto;
+}
+ul#adminmenu li.jetty-primary-menu-item div.dashicons-before {
+	margin-left: 14px;
+}
+body.folded ul#adminmenu li.jetty-primary-menu-item div.dashicons-before {
+	margin-left: 0;
+}
+div#wpadminbar ul li#wp-admin-bar-jetty-current-time {
+	width: 80px;
+}
+body:not(.folded) ul#adminmenu li.jetty-primary-menu-item.wp-has-current-submenu.wp-menu-open a div.wp-menu-image {
+	margin-left: 9px;
+}
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu .jetty-admin-bar-item {
+	width: auto;
+	padding: 0;
+	float: none;
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#wpadminbar .ab-submenu {
+	padding: 0;
+}
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu #wp-admin-bar-jetty-settings-primary {
+	background: #ECEEF1;
+}
+
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu {
+	position: static;
+	display: flex;
+	flex: 1 0 auto;
+	flex-direction: row-reverse;
+}
+
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu #wp-admin-bar-jetty-settings-secondary-default {
+	border-right: none;
+}
+
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu #wp-admin-bar-jetty-settings-primary .ab-sub-wrapper {
+    display: block;
+    position: static;
+    box-shadow: none;
+    background: none;
+    margin-top: 0;
+}
+
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu #wp-admin-bar-jetty-settings-primary .ab-sub-wrapper a.ab-item {
+	color: #505050;
+}
+
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper {
+    width: 720px;
+    background: #FEFEFE;
+    padding: 0px;
+}
+
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu #wp-admin-bar-jetty-settings-primary .jetty-admin-bar-item {
+	padding-left: 20px;
+}
+
+html #wpadminbar ul#wp-admin-bar-top-secondary li#wp-admin-bar-jetty-settings div.ab-sub-wrapper ul#wp-admin-bar-jetty-settings-default li a,
+html #wpadminbar ul#wp-admin-bar-top-secondary li#wp-admin-bar-jetty-settings div.ab-sub-wrapper ul#wp-admin-bar-jetty-settings-default li div.ab-item.ab-empty-item {
+	/*padding: 5px;*/
+}
+
+html #wpadminbar ul#wp-admin-bar-top-secondary li#wp-admin-bar-jetty-settings div.ab-sub-wrapper ul#wp-admin-bar-jetty-settings-default li a:hover {
+	color: #00B483;
+	background-color: #f4f6f9;
+}
+html #wpadminbar li#wp-admin-bar-jetty-settings-primary_0_3 a {
+	line-height: 60px;
+}
+li#wp-admin-bar-jetty-settings-primary_0_3 a i.fa.fa-lock{
+	color: #4a4949;
+	font-size: 15px;
+}
+li#wp-admin-bar-jetty-settings-primary_0_3 a:hover i.fa.fa-lock {
+	color: #00B483;
+}
+/**/
+li#wp-admin-bar-gform-forms {
+	display: none !important;
+}
+html #wp-admin-bar-top-secondary>.jetty-admin-bar-item .fa {
+    color: #fff;
+    font-family: FontAwesome;
+    font-size: 1.1rem;
+}
+html #wpadminbar .jetty-admin-bar-item {
+    width: 50px;
+}
+li#wp-admin-bar-jetty-support a.ab-item {
+	padding: 0 !important;
+    text-align: center;
+    position: relative;
+}
+html #wpadminbar #wp-admin-bar-jetty-name.jetty-admin-bar-item {
+	max-width: 100%;
+	width: auto;
+}
+html #wpadminbar #wp-admin-bar-jetty-support>.ab-item:hover {
+    background: #006e51;
+}
+
+/* Update jetty ui style */
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu li .ab-sub-wrapper a.ab-item {
+    color: #777;
+    cursor: pointer
+}
+
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu li .ab-sub-wrapper a.ab-item:visited {
+    color: #777
+}
+
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu li .ab-sub-wrapper a.ab-item:hover,
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu li .ab-sub-wrapper a.ab-item:active {
+    color: #000
+}
+
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu li #wp-admin-bar-jetty-user-logout a.ab-item {
+    color: #FF3F00;
+    cursor: pointer
+}
+
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu li #wp-admin-bar-jetty-user-logout a.ab-item:visited {
+    color: #FF3F00
+}
+
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu li #wp-admin-bar-jetty-user-logout a.ab-item:hover,
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu li #wp-admin-bar-jetty-user-logout a.ab-item:active {
+    color: #cc3200
+}
+
+#wpfooter {
+    padding-left: 20px;
+}
+
+html #wpadminbar #wp-toolbar ul li:not('#wp-admin-bar-menu-toggle') {
+    height: 100%;
+    display: block;
+}
+
+html #wpadminbar li > .ab-item {
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    display: block;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    color: #fff
+}
+
+html #wpadminbar .quicklinks > ul > li > .ab-item {
+    padding: 0;
+}
+
+html ul#wp-admin-bar-top-secondary li > .ab-item.ab-empty-item {
+    height: 50px;
+}
+
+html #wpadminbar ul#wp-admin-bar-jetty-settings-default li#wp-admin-bar-jetty-settings-secondary div.ab-item.ab-empty-item {
+    color: #333;
+    padding: 0;
+    font-weight: bold;
+    cursor: default;
+}
+
+html #wpadminbar #wp-admin-bar-jetty-settings ul#wp-admin-bar-jetty-settings-secondary-default > li {
+    height: auto;
+}
+
+html #wpadminbar ul#wp-admin-bar-top-secondary li#wp-admin-bar-jetty-settings > .ab-sub-wrapper ul#wp-admin-bar-jetty-settings-default li#wp-admin-bar-jetty-settings-primary ul#wp-admin-bar-jetty-settings-primary-default > li > .ab-item {
+    color: #333;
+    padding: 0;
+    font-weight: bold;
+    cursor: default
+}
+
+html #wpadminbar ul#wp-admin-bar-top-secondary li#wp-admin-bar-jetty-settings > .ab-sub-wrapper ul#wp-admin-bar-jetty-settings-default li#wp-admin-bar-jetty-settings-primary ul#wp-admin-bar-jetty-settings-primary-default > li > .ab-item:before {
+    content: none;
+}
+
+html #wpadminbar ul#wp-admin-bar-top-secondary li#wp-admin-bar-jetty-settings > .ab-sub-wrapper ul#wp-admin-bar-jetty-settings-default li#wp-admin-bar-jetty-settings-primary .ab-item:before {
+    content: none
+}
+
+html #wpadminbar #wp-admin-bar-jetty-settings ul#wp-admin-bar-jetty-settings-secondary-default > li {
+    width: 110px;
+    float: right;
+    padding: 0 10px 10px 10px;
+}
+
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu li .ab-sub-wrapper {
+    display: block;
+    position: static;
+    box-shadow: none;
+    background: #FEFEFE;
+    margin-top: 0
+}
+
+html #wp-admin-bar-top-secondary > li {
+    width: 50px;
+    text-align: center;
+}
+
+html #wp-admin-bar-top-secondary > li .fa {
+    color: #fff;
+    font-family: FontAwesome;
+    font-size: 1.1rem
+}
+
+html #wp-admin-bar-top-secondary > li:hover {
+    background: #096484;
+}
+
+#wpcontent,
+#wpfooter {
+    margin-left: 160px;
+}
+
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu > li {
+    width: auto;
+    padding: 0;
+    float: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu > li#wp-admin-bar-jetty-settings-primary .ab-sub-wrapper ul#wp-admin-bar-jetty-settings-primary-default li {
+    float: none;
+} 
+
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu #wp-admin-bar-jetty-settings-secondary {
+    /*width: 680px;*/
+    padding: 40px 0;
+    float: right;
+}
+
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu #wp-admin-bar-jetty-settings-secondary .ab-item.ab-empty-item:before {
+    content: none;
+}
+
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu #wp-admin-bar-jetty-settings-primary ul#wp-admin-bar-jetty-settings-primary-default > li {
+    padding-left: 20px;
+}
+
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu #wp-admin-bar-jetty-settings-primary ul#wp-admin-bar-jetty-settings-primary-default > li {
+    padding-right: 10px;
+}
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper {
+    width: 900px;
+    background: #FEFEFE;
+    padding: 0px;
+}
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu #wp-admin-bar-jetty-settings-primary {
+    background: #ECEEF1;
+    width: 170px;
+}
+ul#wp-admin-bar-top-secondary li#wp-admin-bar-jetty-settings > div.ab-sub-wrapper > ul.ab-submenu > li > .ab-item {
+    font-size: 22px;
+    margin-bottom: 0.6em;
+    font-family: "Roboto Slab", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-weight: 400;
+}
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu #wp-admin-bar-jetty-settings-secondary-default {
+    width: 650px;
+    height: 400px;
+    border-right: 1px solid #D6D6D6
+}
+html #wpadminbar ul#wp-admin-bar-top-secondary li#wp-admin-bar-jetty-settings div.ab-sub-wrapper ul#wp-admin-bar-jetty-settings-default li a:hover {
+    color: #333;
+    /*font-weight: 600;*/
+    padding-left: 5px;
+    /*padding-left: 0;*/
+    left: -5px;
+    position: relative;
+}
+html #wpadminbar ul#wp-admin-bar-top-secondary li#wp-admin-bar-jetty-settings div.ab-sub-wrapper ul#wp-admin-bar-jetty-settings-default li#wp-admin-bar-jetty-settings-secondary li a:hover {
+    padding-right: 10px;
+}
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper {
+    width: 900px;
+    background: #FEFEFE;
+    padding: 0px;
+}
+ul#wp-admin-bar-top-secondary li#wp-admin-bar-jetty-settings > div.ab-sub-wrapper > ul.ab-submenu > li {
+    width: auto;
+    padding: 0;
+}
+html #wpadminbar li#wp-admin-bar-jetty-settings-primary_0_4 a {
+    line-height: normal;
+}
+html #wpadminbar li#wp-admin-bar-jetty-settings-primary_0_4 a i.fa.fa-lock {
+    color: #4a4949;
+    font-size: 15px;
+    line-height: 32px;
+}
+html #wpadminbar li#wp-admin-bar-jetty-settings-primary_0_3 a {
+    line-height: 60px;
+}
+html #wpadminbar li#wp-admin-bar-jetty-settings-primary_0_4:hover a:hover, html #wpadminbar li#wp-admin-bar-jetty-settings-primary_0_4:hover a, html #wpadminbar li#wp-admin-bar-jetty-settings-primary_0_4 a:hover {
+    padding-bottom: 5px !important;
+}
+/* Last update for style */
+@media screen and (max-width: 782px){
+    html #wpadminbar li {
+        height: 100%;
+        display: block;
+    }
+
+    html #wpadminbar {
+        min-width: 300px;
+    }
+
+    html #wpadminbar ul#wp-admin-bar-top-secondary li > .ab-item.ab-empty-item,
+    html #wpadminbar ul#wp-admin-bar-root-default li > .ab-item {
+        height: 100%;
+        /*line-height: 50px;*/
+    }
+
+    html .wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle a {
+        height: 48px !important;
+    }
+}
+
+html #wpadminbar ul#wp-admin-bar-top-secondary li#wp-admin-bar-jetty-settings div.ab-sub-wrapper ul#wp-admin-bar-jetty-settings-default li a {
+    padding: 0;
+}
+
+html #wpadminbar .admin-bar-backdrop {
+    position: fixed;
+    background-color: transparent;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    z-index: 90999;
+}
+
+@media screen and (max-width: 767px){
+    html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu #wp-admin-bar-jetty-settings-primary ul#wp-admin-bar-jetty-settings-primary-default > li {
+        padding:40px;
+    }
+
+    #wpadminbar .ab-top-secondary .menupop .ab-sub-wrapper {
+        right: 0;
+        left: auto;
+    }
+
+    html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper {
+        width: 350px;
+    }
+
+    html #wpadminbar .admin-bar-backdrop {
+        width: 360px;
+    }
+
+    html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu {
+        position: static;
+        display: block;
+        width: 100%;
+    }
+
+    html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu #wp-admin-bar-jetty-settings-primary {
+        background: #ECEEF1;
+        width: 330px;
+        width: 100%;
+    }
+
+    html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu #wp-admin-bar-jetty-settings-primary {
+        padding-left: 0;
+    }
+
+    html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu #wp-admin-bar-jetty-settings-primary .jetty-admin-bar-item, 
+    html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu #wp-admin-bar-jetty-settings-secondary {
+        padding: 40px;
+    }
+
+    html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu #wp-admin-bar-jetty-settings-primary ul#wp-admin-bar-jetty-settings-primary-default > li {
+        padding: 40px;
+    }
+}
+
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu > li#wp-admin-bar-jetty-settings-primary .ab-sub-wrapper ul#wp-admin-bar-jetty-settings-primary-default li {
+    float: none;
+}
+
+html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu #wp-admin-bar-jetty-settings-secondary-default {
+    border-right: none;
+}
+
+@media screen and (max-width: 992px){
+    html #wpadminbar #wp-admin-bar-jetty-settings>.ab-sub-wrapper>.ab-submenu #wp-admin-bar-jetty-settings-secondary-default {
+        width: 300px;
+    }
+
+    html #wpadminbar .ab-top-menu > .menupop > .ab-sub-wrapper .ab-item {
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,45 @@
+.home.widget-dashboard-layout {
+	@media screen and ( min-width: $breakpoint__computer ) {
+		.site-content {
+			&,
+			.content-area,
+			.widget-area {
+				display: block;
+			}
+			.content-area {
+				width: auto;
+			}
+
+			.widget-area {
+				overflow: hidden;
+				width: 100%;
+				padding-left: 0;
+			}
+			.widget {
+				box-sizing: border-box;
+				float: left;
+				width: 50%;
+				max-width: none;
+				padding: 20px;
+				margin-left: 0;
+				margin-right: 0;
+
+				&:nth-child(2n+1) {
+					clear: both;
+				}
+				ul {
+					margin-left: 50px;
+				}
+			}
+			.widget-title {
+				height: 50px;
+				margin-bottom: .67em;
+				background-color: $color__secondary * 2;
+				border-radius: 5px;
+				color: $color__primary;
+				line-height: 50px;
+				text-align: center;
+			}
+		}
+	}
+}

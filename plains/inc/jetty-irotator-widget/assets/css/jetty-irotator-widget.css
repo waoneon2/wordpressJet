@@ -1,0 +1,43 @@
+.jetty-irotator-widget-form .media-item {
+  padding: 10px;
+      border: 1px solid #ddd;
+      margin:0 3px 3px 0;
+      display: inline-block;
+      width: 93px;
+      height: 150px;
+      float: left;
+}
+
+.jetty-irotator-widget-form .media-item .image-preview img {
+  max-width: 90px;
+  height: auto;
+  max-height: 120px;
+}
+
+.jetty-irotator-widget-form .media-item input {
+  width: 100%;
+}
+
+.jetty-irotator-widget-form .jetty-image-choose-action {
+  /*padding: 10px 0 12px 0;*/
+    text-align: center;
+}
+
+.jetty-irotator-widget-form .jetty-image-choose-action a.button + a.button {
+  margin-left: 5px;
+}
+
+[id*="jetty_irotator_widget"].widget.open {
+  z-index: 100;
+  margin-left: -150px;
+}
+
+.jetty-irotator-widget-form .image-preview {
+  text-align:center;
+  margin: 5px 0 0 0;
+}
+
+.jetty-irotator-widget-form .jirw-add-more {
+  display: block;
+  clear: both;
+}

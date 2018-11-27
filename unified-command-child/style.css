@@ -1,0 +1,183 @@
+/*
+Theme Name: Unified Command
+Template: unified-command
+Author: the Jetty team
+Author URI: http://jettyapp.com
+Description: Theme built by Jetty.
+Version: 1.0.1479458843
+Updated: 2016-11-18 08:47:23
+
+*/
+
+@import url("../unified-command/style.css");
+
+/* Custom Style */
+.widget {
+    -webkit-box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+    -moz-box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+    padding: 20px;
+}
+div#menunav_container_id {
+	-webkit-box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+    -moz-box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+}
+a[id^=link_logo_] img {
+	width: auto;
+    height: 65px;
+}
+a[id^=link_logo_] {
+	float: left;
+}
+a[id^=link_logo_]:not(:last-child) {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 710px){
+	a[id^=link_logo_] img {
+		width: auto;
+		max-width: 100px;
+		height: 50px;
+	}
+
+	h1.site-title {
+		font-size: 20px;
+	}
+	h2.site-description
+	{
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 610px){
+	a[id^=link_logo_] img {
+		width: auto;
+		max-width: 100px;
+		height: 45px;
+	}
+
+	h1.site-title {
+		font-size: 17px;
+	}
+	h2.site-description
+	{
+		font-size: 7px;
+	}
+}
+
+@media screen and (max-width: 599px){
+	div#each_logo_client{
+		display:none;
+	}
+
+	h1.site-title {
+		font-size: 20px;
+	}
+
+	h2.site-description
+	{
+		font-size: 10px;
+	}
+}
+
+@media screen and (min-width: 600px){
+	.widget-area {
+    	width: 35%;
+	}
+	.site-content {
+    	width: 60%;
+	}
+	.main-navigation .current-menu-item > a {
+    	color: white;
+	}
+	nav.main-navigation div#menunav_container_id ul:not(.sub-menu) > li > a {
+		margin-left: 15px;
+	}
+	nav.main-navigation div#menunav_container_id li a {
+		padding-left: 5px;
+		color: white;
+	}
+	nav.main-navigation div#menunav_container_id li {
+		margin-right: 10px;
+	}
+	.main-navigation li a:hover {
+    	color: #ccc;
+	}
+	a#site-logo {
+		float: left;
+		width: 65%;
+	}
+	.self-container {
+	  display: table;
+	  height: 100%;
+	  width: 100%;
+	}
+	hgroup, div#each_logo_client  {
+	  display: table-cell;
+	  text-align: center;
+	  vertical-align: middle;
+	}
+	hgroup {
+		position: relative;
+		width: 40%;
+		vertical-align: top;
+	}
+	h1.site-title,
+	h2.site-description{
+		text-align: right;
+	}
+	.main-navigation {
+        /*margin-top: 80px;
+        margin-top: 5.714286rem;*/
+        margin-top: 5px;
+        text-align: center;
+    }
+
+	div#each_logo_client {
+		overflow: hidden;
+		width: 60%;
+	}
+	.main-navigation ul li:hover > ul {
+		z-index: 999;
+	}
+	.main-navigation div#menunav_container_id > ul > li:hover > ul {
+		margin-left: 20px;
+	}
+}
+.cap_desc {
+    padding: 15px;
+}
+.img-slider { width: 100% }
+.img-slider img {
+	width: 100%;
+	height: 257px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.overlay_link {
+	text-decoration: none;
+	color: white;
+}
+.overlay_link:hover {
+	color: #21759b;
+}
+div.img-sliders {
+	margin-top: 24px;
+    margin-top: 1.714285714rem;
+}
+img.header-images {
+	border-radius: 3px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.cycle-overlay {
+    position: absolute;
+    bottom: 0;
+    z-index: 101;
+    background: black;
+    color: white;
+    opacity: .5;
+    width: 100%;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+}

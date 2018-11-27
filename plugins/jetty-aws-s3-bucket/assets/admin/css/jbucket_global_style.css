@@ -1,0 +1,42 @@
+div#jbucket_primary {
+    margin: 0 auto;
+    width: auto;
+    text-align: center;
+    text-align: -webkit-center;
+}
+div#jbucket_primary main#jbucket_main form#loginform {
+	width: 50%;
+}
+.content_of_icon_document {
+    width: 100px;
+    height: 62px;
+    box-sizing: content-box;
+}
+span.name_of_extension {
+    opacity: .35;
+    text-align: center;
+    overflow: hidden;
+    line-height: 60px;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: lowercase;
+    overflow: hidden;
+    border: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.jbucket_document_filename {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0;
+    font-weight: bold;
+    box-sizing: content-box;
+}
+img.jbucket_icon_document {
+    position: relative;
+    width: 30px;
+    vertical-align: bottom;
+}

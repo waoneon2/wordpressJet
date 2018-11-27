@@ -1,0 +1,129 @@
+/*
+Theme Name: BP
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+.main-navigation li {
+    float: right;
+    position: relative;
+}
+label.label-search-mobile {
+    margin-left: -6px;
+}
+button.search-submit {
+	border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+	border-right: 1px #CCCCCC solid;
+}
+input.search-field {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+@media screen and (min-width: 40em){
+	.header-navigation ul {
+		padding-right: 0;
+	}
+}
+form.search-form-full {
+    margin-right: 30px;
+    margin-left: 0;
+}
+@media screen and (min-width: 40em){
+	p.site-description {
+	    float: right;
+	    margin-top: 68px;
+	}
+	img.header-image {
+	    float: right;
+	}
+	.header-navigation li {
+	    line-height: 1;
+	}
+	.main-navigation ul li > a:after {
+		display: none;
+	    
+	}
+	.main-navigation ul li > a:before {
+		font-family: 'FontAwesome';
+	    content: "\f0dd";
+	    margin-right: 10px;
+	    color: #999999;
+	}
+	.main-navigation ul li > a:only-child:before {
+	    content: ' ';
+	}
+	.main-navigation ul#primary-menu > li:hover > a:after {
+	    color: transparent;
+	}
+	.main-navigation ul#primary-menu > li:hover > a:before {
+	    color: #FFFFFF;
+	}
+	.main-navigation ul.sub-menu li.menu-item-has-children > a:after {
+		display: none;
+	}
+	.main-navigation ul.sub-menu li.menu-item-has-children > a:before {
+	    font-family: 'FontAwesome';
+	    content: "\f104";
+	    margin-left: 10px;
+	    color: #999999;
+	}
+	.main-navigation ul.sub-menu li.menu-item-has-children:hover > a:after {
+	    color: transparent;
+	}
+	.main-navigation ul.sub-menu li.menu-item-has-children:hover > a:before {
+	    color: #d2cfcf;
+	}
+	.main-navigation ul li:hover > ul {
+	    left: inherit;
+	    right: 0px;
+	}
+	.main-navigation ul.sub-menu li.menu-item-has-children:hover > ul.sub-menu {
+		left: inherit;
+	    right: 100%;
+	}
+	.main-navigation ul.sub-menu {
+	    padding-right: 5px;
+	    padding-left: 0;
+	}
+	h2 {
+	    font-size: 1.5rem;
+	}
+	.main-navigation ul ul {
+	    left: 999em;
+	    right: -999em;	
+	}
+	.main-navigation ul ul ul {
+		left: 999em;
+	}
+}
+p.site-description {
+    font-size: 25px;
+}
+
+.message {
+    padding-left: 0;
+    padding-right: 30px;
+}
+form.search-form-full button.search-submit span.fa.fa-search {
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+    -webkit-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+#breadcrumbs li:not(.item-home):not(.separator) {
+	background: url("images/rows.png") no-repeat center left;
+}

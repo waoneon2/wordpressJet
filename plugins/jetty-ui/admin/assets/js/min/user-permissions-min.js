@@ -1,0 +1,1 @@
+!function($){$(function(){$(".role__name").click(function(){$(this).parents(".role").toggleClass("role--active")})})}(jQuery);

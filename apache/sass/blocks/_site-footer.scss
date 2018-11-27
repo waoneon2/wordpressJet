@@ -1,0 +1,17 @@
+.site-footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: LorimerNo2CondensedMedium, Arial, sans-serif;
+	}
+	&,
+	a,
+	p,
+	span {
+		color: $color__secondary--inv;
+	}
+	.site-footer__credits {
+		margin-bottom: 0;
+	}
+}

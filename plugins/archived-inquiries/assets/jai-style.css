@@ -1,0 +1,122 @@
+body.post-type-jai_archived_inquiry .form-table,
+body.admin_page_jai_view_as_report .form-table {
+  width: 100%;
+  max-width: 100% !important
+}
+body.post-type-jai_archived_inquiry #poststuff #post-body.columns-2{
+  margin-right: 0;
+}
+body.post-type-jai_archived_inquiry #post-body.columns-2 #postbox-container-1{
+  display: none;
+}
+body.post-type-jai_archived_inquiry .metabox-holder .postbox-container .empty-container{
+  display: none;
+}
+body.post-type-jai_archived_inquiry table thead tr th {
+  font-weight: bold;
+}
+body.post-type-jai_archived_inquiry table thead tr th:not(#excerpt_inq){
+  width: 12%;
+}
+table.form-table#events_inquiry tbody tr{
+  border-bottom: 2px solid #ddd;
+}
+table.form-table#events_inquiry tbody tr:last-child{
+  border-bottom: none;
+}
+table.form-table#events_inquiry tbody tr td{
+  padding-left: 0;
+}
+table.form-table#events_inquiry tbody tr td:first-child{
+  font-weight: bold;
+  width: 12%;
+}
+td.ev_body {
+  width: 70%;
+}
+table.form-table#events_inquiry tbody tr td:last-child{
+  text-align: right;
+}
+div.view-inquiry-detail-content {
+  border-top: 2px solid #ddd;
+}
+a.contact-link{
+  text-decoration: none;
+  font-weight: bold;
+}
+span.inquiry-cont-detail{
+  font-weight: bold;
+}
+div.inquiry p:not(#inq-from) {
+  margin-top: 1px;
+}
+.inquiry-details a.view-inquiry-detail {
+	text-decoration: none;
+}
+table.detail-inquiry.form-table tbody tr td:first-child{
+  text-align: right;
+}
+.inquiry-box {
+  border: 2px solid #ddd;
+  margin-bottom: 15px;
+  background: #fff;
+  padding: 5px;
+}
+.inquiry-box table.form-table#events_inquiry{
+  border:2px solid #ddd;
+  border-top-width:4px;
+}
+.inquiry-box table.form-table#events_inquiry tbody tr td{
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.inquiry-box .col-6#tbl-2 table {
+  float: right;
+}
+td#fullname {
+  font-weight: bold;
+}
+img.print_logo {
+  width: 20px;
+  height: 20px;
+}
+.print-report-link {
+  text-decoration: none;
+  outline: 0;
+}
+.print-report-link:focus,
+.print-report-link:active{
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+@media screen and (min-width: 1025px){
+	.view-inquiry-detail-content {
+		width: 100%;
+		display: block;
+	}
+
+  .view-inquiry-detail-content .col-6,
+  .inquiry-box .col-6 {
+		width: 47%;
+		display: inline-block;
+	}
+}
+
+@media print {
+  #wpcontent, #wpfooter {
+     margin-left: 0 !important; 
+  }
+  h1.view-as-report, .on_button_print, .update-nag, #wpfooter{
+    display: none !important;
+  }
+  div#adminmenumain, div#adminmenuwrap, div#adminmenuback {
+    display: none !important;
+  }
+  header nav, footer {
+    display: none !important;
+  }
+  .wrap {
+    margin-right: 0 !important;
+  }
+}

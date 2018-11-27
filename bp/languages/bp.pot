@@ -1,0 +1,298 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: bp new\n"
+"POT-Creation-Date: 2016-10-18 09:08+0700\n"
+"PO-Revision-Date: 2016-02-15 10:08+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;esc_html_e;_nx:4c,1,2;"
+"esc_html_x:1,2c;esc_html__;_nx_noop:4c,1,2;_ex:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: template-parts\n"
+"X-Poedit-SearchPath-2: inc\n"
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:34
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:52
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive-sheet.php:20 functions.php:191
+msgid "Fact Sheets"
+msgstr ""
+
+#: archive-sheet.php:31
+msgid "<p class=\"showing_count\">Showing the single result</p>"
+msgstr ""
+
+#: archive-sheet.php:33
+#, php-format
+msgid "<p class=\"showing_count\">Showing all %d results</p>"
+msgstr ""
+
+#: archive-sheet.php:35
+#, php-format
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "<p class=\"showing_count\">Showing %1$d&ndash;%2$d of %3$d </p>"
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:40 comments.php:62
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:43 comments.php:65
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:44 comments.php:66
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:20
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:20
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:22
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:50
+msgid "Primary"
+msgstr ""
+
+#: functions.php:55
+msgid "Header Menu"
+msgstr ""
+
+#: functions.php:63
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:121
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:339 functions.php:343 functions.php:347 functions.php:354
+#: functions.php:358 functions.php:363
+msgid "Archives"
+msgstr ""
+
+#: functions.php:374
+msgid "Author: "
+msgstr ""
+
+#: functions.php:379
+msgid "Page"
+msgstr ""
+
+#: functions.php:385 search.php:20
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: functions.php:390
+msgid "Error 404"
+msgstr ""
+
+#: functions.php:446
+msgid "&laquo;"
+msgstr ""
+
+#: functions.php:447
+msgid "&raquo;"
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:110
+#, php-format
+msgid "Welcome back %1$s | If you are not %1$s %2$s."
+msgstr ""
+
+#: header.php:110
+msgid "click here"
+msgstr ""
+
+#: inc/sheet.php:10
+msgid "Sheets"
+msgstr ""
+
+#: inc/sheet.php:11
+msgid "Sheet"
+msgstr ""
+
+#: inc/sheet.php:12
+msgid "Add New"
+msgstr ""
+
+#: inc/sheet.php:13
+msgid "Add New Sheet"
+msgstr ""
+
+#: inc/sheet.php:14 page-full-width.php:22
+msgid "Edit"
+msgstr ""
+
+#: inc/sheet.php:15
+msgid "Edit Sheet"
+msgstr ""
+
+#: inc/sheet.php:16
+msgid "New Sheet"
+msgstr ""
+
+#: inc/sheet.php:17 inc/sheet.php:18
+msgid "View Sheet"
+msgstr ""
+
+#: inc/sheet.php:19
+msgid "Search Sheet"
+msgstr ""
+
+#: inc/sheet.php:20
+msgid "No Sheet found"
+msgstr ""
+
+#: inc/sheet.php:21
+msgid "No Sheet found in Trash"
+msgstr ""
+
+#: inc/sheet.php:38
+msgid "sheet"
+msgstr ""
+
+#: inc/sheet.php:45
+msgid "Sheet File"
+msgstr ""
+
+#: inc/sheet.php:47
+msgid "Insert File"
+msgstr ""
+
+#: inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:50 inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:64
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:64
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:64
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:71 template-parts/content-page.php:33
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: page-full-width.php:18 template-parts/content-page.php:22
+#: template-parts/content-sheet.php:48 template-parts/content.php:38
+msgid "Pages:"
+msgstr ""
+
+#: searchform.php:2
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search..."
+msgstr ""
+
+#: searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-sheet.php:43 template-parts/content.php:33
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""

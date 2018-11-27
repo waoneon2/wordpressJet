@@ -1,0 +1,12 @@
+body.social_page_jetty_social_media_monitoring_setting input[type="text"],
+body.social_page_jetty_social_media_monitoring_setting textarea{
+	width: 450px;
+}
+span.progress_overlay {
+    margin-left: 10px;
+}
+img.progress_img_save_loading {
+	position: absolute;
+    width: 25px;
+    margin-left: 5px;
+}

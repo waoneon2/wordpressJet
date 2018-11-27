@@ -1,0 +1,344 @@
+/*
+Theme Name: Fort Lee
+Theme URI: http://jettyapp.com
+Template: us-army
+Author: Jetty
+Author URI: http://jettyapp.com
+Description: Built by Jetty for Fort Lee Press Center.
+Tags: us-army-child,jettyapp,fort lee press center
+Version: 1.0.1502443960
+Updated: 2017-08-11 09:32:40
+
+*/
+div#page {
+	margin-top: 0;
+	background: #c2c2c2!important;
+}
+.headline{
+	max-width: 240px;
+	line-height: 27px;
+}
+
+/*Typography*/
+body,
+button,
+input,
+select,
+textarea {
+  font-size: 10pt;
+  font-family: sans-serif;
+}
+
+/*header*/
+.header-section-wrap {
+  background: url(img/header-bg.jpg) no-repeat scroll left top #eee;
+}
+
+/*Menu*/
+/*navbar mobile*/
+.navbar-title {
+    float: left;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 15px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.navbar-title a {
+    color: #333333;
+    font-weight: bold;
+}
+
+.navbar-title small{
+    font-size: 9pt;
+}
+
+.caret {
+    color: #999;
+    position: relative;
+    left: 4px;
+}
+.navbar-inverse .main-nav > .open > a,
+.navbar-inverse .main-nav > .open > a:hover,
+.navbar-inverse .main-nav > .open > a:focus,
+.navbar-inverse .main-nav>li>a:focus,
+.navbar-inverse .main-nav>li>a:hover {
+    color: #fff;
+}
+/*fort lee news*/
+li.documentInfo_wrapper {
+    margin: 0;
+    margin-bottom: 1em;
+    padding: 0;
+    padding-bottom: .5em;
+    border-bottom: 1px dotted #E1E2E3;
+    display: grid;
+}
+
+.documentInfo_wrapper .doc-date {
+    color: #777777;
+    font-size: .8em;
+    font-weight: bold;
+    padding-bottom: .5em;
+}
+
+.main-nav li {
+    background-color: #333;
+}
+
+/*footer*/
+footer {
+  background: none repeat scroll 0 0 #4E4E4E;
+  clear: both;
+  display: block;
+  color: #E3E3E3;
+  font-size: 1.2em;
+  padding: 20px 13px 0;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.footer p {
+  padding-bottom: 0!important;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+}
+
+div.bottom_links li {
+	float: left;
+	color: transparent;
+	border-right: 1px solid #333333;
+	padding-right: 5px;
+	margin-right: 10px;
+	font-size: 12px;
+}
+
+ul.footer-nav {
+    margin: 0;
+    padding: 20px 5px;
+}
+
+@media screen and (max-width: 1024px) {
+	footer p {
+	    color: #ffffff;
+	    font-size: 9pt;
+	    margin-top:20px;
+	    text-align: center;
+	}
+	.copyright {
+	    padding: 10px;
+	}
+	.copyrightNotice {
+		background-color: transparent;
+	}
+		.bottom_links {
+	    	padding-bottom: 0;
+		}
+}
+
+@media screen and (max-width: 525px){
+	.bottom_links {
+    	padding-bottom: 20px;
+	}
+}
+@media (min-width: 992px){
+  .midDiv_col{
+      padding-right: 15px;
+  }
+}
+.boxContent {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#e0e0e0));
+  background: -webkit-linear-gradient(top, #f9f9f9 0%,#e0e0e0 100%);
+  background: -o-linear-gradient(top, #f9f9f9 0%,#e0e0e0 100%);
+  background: -ms-linear-gradient(top, #f9f9f9 0%,#e0e0e0 100%);
+  background: linear-gradient(to bottom, #f9f9f9 0%,#e0e0e0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#e0e0e0',GradientType=0 );
+}
+#bottomDiv .boxContent {
+  height: auto;
+}
+div#primary {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+#bodyContent {
+  padding: 14px 14px;
+}
+#liveSearch {
+  display: none;
+}
+.boxHeader_box {
+  padding: 8px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(104,104,104,1)), color-stop(50%,rgba(119,119,119,1)), color-stop(100%,rgba(127,127,127,1)));
+  background: -webkit-linear-gradient(top, rgba(104,104,104,1) 0%,rgba(119,119,119,1) 50%,rgba(127,127,127,1) 100%);
+  background: -o-linear-gradient(top, rgba(104,104,104,1) 0%,rgba(119,119,119,1) 50%,rgba(127,127,127,1) 100%);
+  background: -ms-linear-gradient(top, rgba(104,104,104,1) 0%,rgba(119,119,119,1) 50%,rgba(127,127,127,1) 100%);
+  background: linear-gradient(to bottom, rgba(104,104,104,1) 0%,rgba(119,119,119,1) 50%,rgba(127,127,127,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#686868', endColorstr='#7f7f7f',GradientType=0 );
+}
+/* */
+.home h2 {
+  margin: 0;
+}
+#on-photo .cycle-overlay {
+  position: absolute;
+  bottom: 0;
+  z-index: 999;
+  background: rgba(122, 122, 122, 0.57);
+  color: #f9f9f9;
+  width: 100%;
+  max-height: 100px;
+  overflow: hidden;
+}
+#on-photo .inner {
+  padding:10px;
+}
+div.installation_content h3 {
+  color: #369;
+  font-weight: bold;
+}
+div.installation_content a {
+  color: #369;
+  font-weight:bold;
+  font-size: 1.4em;
+}
+div.installation_content a:hover {
+  text-decoration: underline;
+}
+#on-release p {
+  color: #777777;
+  font-weight: bold;
+}
+#on-release a,
+#on-traveller-stories a {
+  color: #369;
+}
+#on-release a h3 {
+  padding-bottom: 2px;
+}
+#on-traveller-stories a h4 {
+  font-size: 1.2em;
+}
+#on-release a:hover,
+#on-traveller-stories a:hover {
+  text-decoration:underline;
+}
+#fort-lee-slider .inner,
+#fort-lee-slider .inner a {
+  color:#f7cb0c;
+  font-weight:700;
+  text-shadow: 1px 1px #000000;
+}
+.content_of_resources {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+.content_of_resources img {
+  vertical-align: middle;
+}
+ul.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all {
+  background: transparent;
+  border: none;
+}
+li.ui-state-default.ui-corner-top {
+  padding: 6px; 
+  margin-left: 3px;
+  border: none;
+  background: transparent;
+}
+li.ui-state-default.ui-corner-top:hover {
+  text-decoration: none;
+  background-color: #eee;
+}
+.tab-pane {
+  padding-top: 0 !important;
+}
+.tab-content.ui-tabs.ui-widget.ui-widget-content.ui-corner-all {
+  background: transparent;
+  border: none;
+}
+li.ui-state-default.ui-corner-top a {
+  color: #369;
+  outline: none;
+}
+li.ui-state-default.ui-corner-top.active {
+  background-color: #eee;
+  border: 1px solid #cec8c8;
+  border-bottom: none;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+li.ui-state-default.ui-corner-top.active a {
+  color: #555;
+  outline: none;
+}
+div#fl-img-slider {
+  z-index: 0;
+}
+/* */
+.on-box-content {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.on-header {
+  padding: 5px 10px 5px 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(104,104,104,1)), color-stop(50%,rgba(119,119,119,1)), color-stop(100%,rgba(127,127,127,1)));
+  background: -webkit-linear-gradient(top, rgba(104,104,104,1) 0%,rgba(119,119,119,1) 50%,rgba(127,127,127,1) 100%);
+  background: -o-linear-gradient(top, rgba(104,104,104,1) 0%,rgba(119,119,119,1) 50%,rgba(127,127,127,1) 100%);
+  background: -ms-linear-gradient(top, rgba(104,104,104,1) 0%,rgba(119,119,119,1) 50%,rgba(127,127,127,1) 100%);
+  background: linear-gradient(to bottom, rgba(104,104,104,1) 0%,rgba(119,119,119,1) 50%,rgba(127,127,127,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#686868', endColorstr='#7f7f7f',GradientType=0 );
+}
+.on-body {
+  padding: 10px;
+  border: 1px solid #B6B6B6;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#e0e0e0));
+  background: -webkit-linear-gradient(top, #f9f9f9 0%,#e0e0e0 100%);
+  background: -o-linear-gradient(top, #f9f9f9 0%,#e0e0e0 100%);
+  background: -ms-linear-gradient(top, #f9f9f9 0%,#e0e0e0 100%);
+  background: linear-gradient(to bottom, #f9f9f9 0%,#e0e0e0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#e0e0e0',GradientType=0 );
+}
+.on-header h2 {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: normal;
+  padding: .2em .2em .2em 0;
+}
+.on-body ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.on-body .social-media-area .ui-tabs {
+  padding: 0;
+}
+.on-body .social-media-area .ui-tabs .ui-tabs-nav {
+  padding: 0;
+}
+li.ui-state-default.ui-corner-top{
+  margin-left: 0;
+  margin-right: 0;
+}
+#on-release .on-body,
+#on-traveller-stories .on-body {
+  overflow-y: scroll;
+  height: 340px;
+}
+@media (max-width: 767px){
+  .navbar-title a,
+  .navbar-title a:visited,
+  .navbar-title a small {
+    color: #000 !important;
+  }
+}

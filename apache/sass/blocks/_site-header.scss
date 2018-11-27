@@ -1,0 +1,109 @@
+.site-header {
+	font-family: Geogrotesque-Medium;
+}
+.site-header__top-section {
+	overflow: hidden;
+	padding: 20px 20px 0 20px;
+	background: url(/content/themes/apache/images/header-background.jpg) 0 0 repeat;
+}
+.site-header__branding {
+	text-align: center;
+}
+.site-header__image-wrapper {
+	display: inline-block;
+}
+	.site-header__image {
+		max-width: 100px;
+		max-height: 100px;
+	}
+.site-header__title,
+.site-header__description {
+	line-height: 1.1;
+}
+.site-header__title {
+	margin: 0;
+	font-size: 18px;
+	a {
+		color: $color__text-header;
+		text-decoration: none;
+	}
+}
+.site-header__description {
+	color: $color__text-header;
+}
+// Fancy search box
+.site-header .search-form {
+	$search-box-color: #C69901;
+	$search-box-size:  30px;
+
+	overflow: hidden;
+	height: $search-box-size;
+
+	.search-field {
+		float: left;
+		height: 100%;
+		width: 150px;
+		padding-left: 8px;
+		padding-right: 8px;
+		border: 0;
+		border-radius: 0;
+	}
+	.search-submit {
+		float: left;
+		display: block;
+		height: $search-box-size;
+		width: $search-box-size + 5px;
+		padding: 0;
+		border: 0;
+		box-shadow: none;
+		background-color: $search-box-color;
+		border-radius: 0;
+		cursor: pointer;
+		line-height: $search-box-size - 2px;
+		text-align: center;
+
+		&:hover {
+			background-color: $search-box-color * 1.2;
+		}
+	}
+}
+
+@media screen and ( min-width: $breakpoint__tablet ) {
+	// Align the innards of the site title
+	.site-header__branding {
+		display: table;
+		width: 100%;
+	}
+		.site-header__image-wrapper,
+		.site-header__title-section {
+			display: table-cell;
+			vertical-align: middle;
+		}
+		.site-header__image-wrapper	{
+			height: 95px;
+			width: 100px;
+		}
+	.site-header__image {
+		margin-right: 20px;
+	}
+	.site-header__title,
+	.site-header__description {
+		text-align: left;
+	}
+	.site-header__description {
+		margin: 0;
+	}
+}
+
+@media screen and ( min-width: $breakpoint__computer ) {
+	// Align site title and widget area side-by-side
+	.site-header__branding {
+		float: left;
+		width: 67%;
+		text-align: left;
+	}
+	.site-header__widgets {
+		float: left;
+		width: 33%;
+	}
+}

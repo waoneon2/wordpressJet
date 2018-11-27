@@ -1,0 +1,1 @@
+!function($){"use strict";$(function(){$(".js-lightbox-inline").magnificPopup({type:"inline",midClick:!0}),$(".js-lightbox-img").magnificPopup({type:"image",closeOnContentClick:!0,closeBtnInside:!1,fixedContentPos:!0,mainClass:"mfp-no-margins mfp-with-zoom",image:{verticalFit:!0},zoom:{enabled:!0,duration:300}})})}(jQuery);

@@ -1,0 +1,181 @@
+/*
+CTC Separate Stylesheet
+Updated: 2016-11-21 02:01:10
+Theme Name: BP Child
+Theme URI: http://underscores.me/
+Template: bp
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0.1479693670
+*/
+
+p {
+    margin: 0 0 10px;
+}
+
+.row.page-full-width {
+    max-width: 73.13rem;
+}
+nav#site-navigation {
+    background-color: #006b00;
+    border-color: #cccccc;
+    filter: none;
+    background-image: none;
+}
+aside#secondary ul {
+    padding-left:0; 
+    margin-left: 0;
+}
+aside#secondary ul li {
+    list-style: none;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    display: block;
+    margin-bottom: -1px;
+    padding: 10px 15px;
+    position: relative;
+    border-radius: 0;
+}
+aside#secondary ul li:first-child{
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+aside#secondary ul li:last-child{
+    margin-bottom: 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+p.site-description {
+    font-weight: 300;
+    font-family: "Univers LT W02 45 Light";
+    font-size: 1.5rem;
+    color: #007f00;
+}
+nav#site-header-navigation {
+    float: right;
+    margin-top: 3px;
+    padding-right: 15px;
+    height: 20px;
+    max-height: 20px;
+}
+.main-navigation a {
+    font-family: "Univers LT W02 45 Light";
+}
+div#content {
+    border-bottom: none;
+}
+p.site-description {
+    padding-left: 0;
+}
+.search-submit {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+span.fa.fa-search {
+    font-size: 14px;
+    color: #9ACC02;
+}
+button.search-submit {
+    line-height: normal;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: auto;
+    height: 34px;
+}
+input.form-control.searchs-field:focus {
+    border-color: #007f00;
+    box-shadow: 0 1px 1px #99cc00 inset, 0 0 8px #99cc00;
+}
+footer#colophon {
+    padding-bottom: 10px;
+}
+footer#colophon {
+    position: relative;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-navigation ul {
+    float: right;
+}
+@media screen and (min-width: 40em){
+    .main-navigation ul#primary-menu > li {
+        border-right: 1px #019601 solid;
+    }
+    .main-navigation ul#primary-menu > li:hover{
+        background-color: #99cc00;
+    }
+    .main-navigation ul li:hover > ul {
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+    .main-navigation ul ul {
+        -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+        box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    }
+    h3.widget-title {
+        font-size: 24px;
+    }
+    .header-navigation li {
+        border-right: 1px #000000 solid;
+        line-height: 10px;
+    }
+    nav#site-header-navigation div ul li a:hover {
+        text-decoration: underline;
+    }
+    .main-navigation ul ul {
+        top: 3.7em;
+    }
+    div#logo-title-header {
+        padding: 0 0 10px 0;
+        background-color: #ffffff;
+    }
+    img.header-image {
+        float: none;
+        margin-top: auto;
+    }
+    p.site-description {
+        float: none;
+        margin-top: auto;
+    }
+    div.medium-9.columns.title-text{
+        float: left;
+        margin-top: 15px;
+    }
+
+}
+div.input-group .form-control:focus {
+    z-index: 1;
+}
+input.search-field {
+    width: inherit;
+    height: inherit;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+@media only screen and (min-width: 768px) {
+   .input-group .form-control:first-child, 
+   .input-group-addon:first-child, 
+   .input-group-btn:first-child > .btn, 
+   .input-group-btn:first-child > .dropdown-toggle, 
+   .input-group-btn:last-child > 
+   .btn:not(:last-child):not(.dropdown-toggle) {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        margin-left: 10px;
+    } 
+}
+div.logo {
+    color: #007f00;
+    font-size: 24px;
+    font-family: "Univers LT W02 45 Light";
+    padding-top: 15px;
+    float: left;
+}
+div.title-text {
+    margin-top: 30px;
+}

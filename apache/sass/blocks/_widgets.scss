@@ -1,0 +1,47 @@
+.widget {
+	box-sizing: border-box;
+	max-width: 300px;
+	margin: 30px auto;
+	text-align: center;
+
+	select {
+		max-width: 100%;
+	}
+	ul {
+		padding: 0;
+		margin: 0 0 0 0;
+		list-style: none;
+	}
+	li {
+		display: block;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-size: $font__line-height-pre;
+		font-size: 1rem;
+		font-weight: normal;
+	}
+}
+.widget-title {
+	margin-top: 0;
+	color: $color__tertiary;
+	font-weight: 500;
+}
+.widget_search {
+	.search-submit {
+		display: none;
+	}
+	.search-field {
+		box-sizing: border-box;
+		width: 100%;
+	}
+}
+
+@media screen and ( min-width: $breakpoint__computer ) {
+	.widget {
+		text-align: left;
+
+		ul {
+			margin-left: 20px;
+		}
+	}
+}

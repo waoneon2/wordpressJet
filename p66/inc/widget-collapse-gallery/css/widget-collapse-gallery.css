@@ -1,0 +1,24 @@
+.jetty-widget-custom .media-item {
+  padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.jetty-widget-custom .media-item .image-preview img {
+  max-width: 100%;
+  height: auto;
+}
+
+.jetty-widget-custom .media-item input,
+.jetty-widget-custom .media-item textarea {
+  width: 100%;
+}
+
+.jetty-widget-custom .jetty-image-choose-action {
+  padding: 10px 0 12px 0;
+    text-align: center;
+}
+
+.jetty-widget-custom .jetty-image-choose-action a.button + a.button {
+  margin-left: 5px;
+}

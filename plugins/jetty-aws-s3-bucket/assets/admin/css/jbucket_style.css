@@ -1,0 +1,69 @@
+#jbucket_aws_access_key_id,
+#jbucket_aws_secret_access_key,
+select#jbucket_buckets_list,
+#jbucket_create_bucket,
+#jbucket_field_folder_bucket,
+#jbucket_field_folder_network_bucket,
+#jbucket_field_network_name_bucket {
+    width: 350px;
+}
+.jbucket_error_notif {
+    font-weight: bold;
+    font-size: 12px;
+    color: red;
+}
+/*Sample*/
+.container{
+	width: 800px;
+	margin-top: 15px;
+}
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul.tabs li{
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+	font-weight: bold;
+}
+ul.tabs li.current{
+	background: #ededed;
+	color: #222;
+}
+.tab-content{
+	display: none;
+	background: #ededed;
+	padding: 15px;
+}
+.tab-content.current{
+	display: inherit;
+}
+/* Table */
+/*table#jbucket_ca_list {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: auto;
+}
+
+table#jbucket_ca_list td, table#jbucket_ca_list th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+table#jbucket_ca_list tr:nth-child(even) {
+    background-color: #dddddd;
+}*/
+a.jbc_link_content {
+	text-decoration: none;
+}
+img.jbucket_img_ajax_loading {
+    width: 20px;
+    text-align: -webkit-center;
+    text-align: center;
+    vertical-align: middle;
+}

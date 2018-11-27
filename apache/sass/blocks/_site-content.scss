@@ -1,0 +1,51 @@
+.post {
+	position: relative;
+}
+.post-edit-link {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.entry-title {
+	margin-bottom: 0;
+}
+
+.site-main,
+.widget-area {
+	margin-bottom: 80px;
+}
+.nav-links {
+	overflow: hidden;
+}
+.nav-previous {
+	float: right;
+}
+.nav-next {
+	float: left;
+}
+
+.site-content {
+	h1, h2, h3, h4, h5, h6 {
+		font-family: LorimerNo2CondensedMedium, Arial, sans-serif;
+	}
+}
+
+@media screen and ( min-width: $breakpoint__computer ) {
+	.site-content {
+		width: 100%;
+
+		.content-area,
+		.widget-area {
+			float: left;
+			display: block;
+		}
+		.content-area {
+			width: 630px;
+		}
+		.widget-area {
+			width: 350px;
+			padding-left: 20px;
+		}
+	}	
+}
