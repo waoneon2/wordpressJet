@@ -1,0 +1,355 @@
+/*HEADER - BOOTSTRAP*/
+.site-branding {
+	position: relative;
+	/*margin-top: 30%;*/
+}
+.navbar-brand {
+	margin-top: -10px;
+	margin-left: 35px;
+}
+
+.site-title a:hover{
+	text-decoration: none;
+}
+
+.main-navigation{
+	margin-top: 20px;
+	margin-right: 40px;
+}
+.main-navigation a:hover{
+	color: white;
+	text-decoration: none;
+	/*font-weight: bold;*/
+}
+.sub-menu{
+	background-color: #16a085;
+}
+
+
+/*content*/
+.entry-header .alert{
+	padding-bottom: 0px;
+} 
+.entry-title a:hover{
+	text-decoration:none;
+	color: #ff7979;
+}
+.entry-footer{
+	font-size: 13px;
+}
+.entry-footer a:hover{
+	text-decoration:none;
+	color: #ff7979;
+}
+.entry-meta{
+	font-size: 13px;
+	
+}
+.entry-meta a:hover{
+	text-decoration:none;
+	color: #ff7979;
+}
+
+
+/*prgen*/
+.prgen .prgen_body .step3 {
+	width: 30%;
+	margin-left: 25px;
+    /*margin-right: 25px;*/
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.prgen .prgen_body .step3 .thumbnail {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.prgen_product_title a > span{
+	line-height: 0.1;
+}
+
+.prgen_header_step .col1of3 h4 {
+	margin-left: 115px; /*-58*/
+	float: left;
+}
+.breadcrump{
+	margin-left: 75px;
+	/*text-transform: uppercase;*/
+}
+.prgen_header .prgen_header_title{
+	margin-top: 0px;
+	padding-top: 1px;
+}
+
+.prgen_header .prgen_header_title h1{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	font-size: 23px;
+}
+
+.prgen_header .prgen_header_step{
+	/*margin-top: -23px;*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.prgen_header_step .col1of3 b {
+	text-transform: uppercase;
+}
+
+.prgen_header .prgen_header_step h4 {
+	font-size: 18px;
+	margin-top: 8px;
+}
+
+.prgen_header_step .prgen_step_num{
+	padding-bottom: 0px;
+	margin-top: 3px;
+}
+
+
+.prgen_body{
+	margin-left: 112px;
+	margin-right: 112px;
+}
+.prgen_body h4 {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.prgen_body .col1of4 h4 {
+    height: 40px;
+}
+
+.prgen_body button{
+	background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.list-up h4{
+	font-size: 23px;
+    font-weight: 700;
+    color: #2c3e50;
+    text-transform: uppercase;
+}
+
+.list-up a h4{
+	margin-top: 20px;
+	font-size: 17px;
+    font-weight: 700;
+}
+
+.list-middle .middle .list_header{
+	margin-top: 25px;
+}
+
+.middle .list_header > p {
+	color: #2c3e50;
+}
+
+.list-middle .list_select p {
+	margin-bottom: 7px;
+}
+
+.list_header .middle {
+margin-left: -40px;
+}
+
+.list-middle > ul.middle {
+    padding: 0px 0;
+}
+
+.product-configs-results{
+	border: 1px solid ;
+	margin-left: 150px;
+}
+
+.product-configs-results th{
+	border: 1px solid black;
+	background-color: #3AB9D4;
+	color: white;
+	text-align: center;
+}
+
+.product-configs-results td{
+	border: 1px solid ;
+}
+
+.td-actions button{
+	background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.preview {
+	padding-bottom: 30px;
+}
+
+.prgen .login-form label {
+    display: block;
+}
+.prgen .login-form input {
+    display: block;
+}
+.prgen .login-form button {
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.pad-95 {
+    margin-left: 95px;
+}
+
+.register-form{
+	margin-left: -15px;
+}
+
+.prgen .register-form label {
+    display: block;
+}
+.prgen .register-form input {
+    display: block;
+}
+.prgen .register-form button {
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.prgen-pagination span.page-numbers.current{
+	float: left;
+}
+
+
+/*account detail*/
+.account_detail {
+    padding: 20px 0px;
+}
+.account_detail table {
+    border: 4px solid #e3e3e3;
+}
+.account_detail td {
+    padding: 15px;
+}
+.account_detail a:hover {
+    text-decoration: none;
+}
+.account_detail a:visited {
+    color: #0079c2;
+}
+.edit-link { 
+	display: none;
+}
+.account_detail table th{
+	text-align: center;
+}
+
+
+
+/*footer*/
+.site-footer{
+	padding: 35px 0px 35px 0px;
+	/*border-top: 0.5px solid;*/
+	/*border-color: #bdc3c7;*/
+}
+
+
+/*sidebar*/
+.card .list-group{
+margin-left: 0px;
+}
+
+li.borderless {
+  border-top: 0 none;
+  border-right: 0 none;
+  border-left: 0 none;
+  border-bottom: 0 none;
+}
+
+li.borderless a:hover{
+	text-decoration:none;
+	color: #ff7979;
+}
+
+.card .search-form{
+	margin-left: 25px;
+}
+
+.card .search-field{
+	position: relative;
+	width: 100%;
+}
+
+.card .search-submit{
+	height: 30px;
+	margin-left: 5px;
+}
+
+.widget-title{
+	font-size: 22px;
+}
+
+.widget-area a:hover{
+	text-decoration:none;
+	color: #ff7979;
+}
+
+
+
+/*post*/
+.post .card-header{
+	background-color: white;
+}
+
+.content-area .card-header{
+	background-color: white;
+	border-bottom: none;
+}
+
+.cat-links{
+	padding-right: 10px;
+}
+
+
+/*comment*/
+.comment-list{
+	margin-left:-2em;
+}
+
+.comment-body{
+	padding-bottom: 10px;
+}
+
+.comment-metadata{
+	font-size: 12px;
+}
+
+/*pagination*/
+.page-numbers{
+	padding-left: 8px;
+	padding-right: 8px;
+	font-weight: bold;
+}
+.page-numbers a:visited{
+	color: #007bff;
+}
+span.page-numbers.current{
+	float: initial;
+}
+
+
+@media screen and (max-width: 767px) {
+    .pad-95 {
+        margin-left: 0;
+    }
+}

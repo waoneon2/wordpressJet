@@ -1,0 +1,222 @@
+.gfullwidth-container {
+	width: 80%;
+	margin: auto;
+}
+
+.gfullwidth-columnleft {
+	width: 60%;
+	float: left;
+	margin-right: 5%;
+}
+
+.gfullwidth-columnright {
+	width: 34%;
+	float: right;
+}
+
+.glconf {
+	color: #fdfdfd;
+	font-family: Open Sans Regular;
+	font-size: 22px;
+}
+
+.glconf a {
+	color: #ffc364;
+	text-decoration: none;
+	font-family: Open Sans Regular;
+	font-size: 22px;
+}
+
+.glconfnav {
+	text-align: center;
+	padding: 30px 10px;
+	background-color: #000000;
+}
+
+.glconfapplysec {
+	text-align: center;
+	padding: 50px 0;
+}
+
+.glconfapplybutton {
+	text-align: center;
+}
+
+.glconfapplybutton a {
+	padding: 20px 150px;
+	background: #e11e28;
+	color: #fff;
+	font-size: 35px;
+	border: none;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: open sans regular, sans serif;
+}
+
+.glconfsecabout {
+	background: #191032 url('http://www.thefire.org/wp-content/uploads/2014/04/Bryn-Mawr-background2.jpg') no-repeat center top;
+	color: #fdfdfd;
+	padding: 6em 3em 3.5em;
+}
+
+.glconfsecabout h2 span {
+	border-top: 8px solid #ffc364;
+	font-family: Open Sans Regular;
+	padding: 15px 0;
+	font-size: 40px;
+}
+
+.glconfsecabout ul li {
+	margin-left: 75px;
+	font-family: Open Sans Regular;
+	font-size: 22px;
+}
+
+.glconfsectestimonial {
+	color: #000000;
+	padding: 6em 3em 4em;
+}
+
+.glconfsectestimonial h2 span {
+	border-top: 8px solid #ffc364;
+	padding: 15px 0;
+	font-size: 40px;
+	font-family: open sans regular, sans-serif;
+}
+
+.cfullwidth-columnleft {
+	width: 45%;
+	float: left;
+	margin-right: 5%;
+	padding: 2em 0;
+}
+
+.cfullwidth-columnright {
+	width: 45%;
+	float: right;
+	padding: 2em 0;
+}
+
+.glconfsecspeakers {
+	background: #f06450 url('http://www.thefire.org/wp-content/uploads/2014/04/speakers-background.jpg') no-repeat center top;
+	color: #fdfdfd;
+	padding: 5.4em 3em .2em;
+}
+
+.glconfsecspeakers h2 span {
+	border-top: 8px solid #ffc364;
+	padding: 15px 0;
+	font-size: 40px;
+}
+
+.glconfseclocation {
+	color: #000000;
+	padding: 6em 3em;
+}
+
+.glconfseclocation h2 span {
+	border-top: 8px solid #ffc364;
+	padding: 15px 0;
+	font-size: 40px;
+}
+
+.glconfseclocation ul li {
+	margin-left: 75px;
+	font-family: Open Sans Regular;
+	font-size: 22px;
+}
+
+@media only screen and (max-width: 767px) {
+	.gfullwidth-container {
+		width: 100%;
+	}
+	
+	.gfullwidth-columnleft {
+		width: 100%;
+		float: none;
+	}
+	
+	.gfullwidth-columnright {
+		width: 100%;
+		float: none;
+	}
+	
+	.glconfnav {
+		display: none;
+	}
+	
+	.glconfapplysec {
+		text-align: center;
+		padding: 20px 0;
+	}
+	
+	.glconfapplybutton {
+		text-align: center;
+	}
+	
+	.glconfapplybutton a {
+		padding: 20px 50px;
+		font-size: 22px;
+		display: block;
+	}
+	
+	.glconfsecabout {
+		background: #191032;
+		padding: 3em 1em 3.5em;
+	}
+	
+	.glconfsecabout h2 span {
+		font-size: 30px;
+		display: block;
+	}
+	
+	.glconfsecabout ul li {
+		margin-left: 45px;
+	}
+	
+	.glconfsectestimonial {
+		color: #000000;
+		padding: 3em 1em 3.5em;
+	}
+	
+	.glconfsectestimonial h2 span {
+		font-size: 30px;
+		display: block;
+	}
+	
+	.cfullwidth-columnleft {
+		width: 100%;
+		float: none;
+		padding: 0;
+	}
+	
+	.cfullwidth-columnright {
+		width: 100%;
+		float: none;
+		padding: 0;
+	}
+	
+	.glconfsecspeakers h2 span {
+		font-size: 30px;
+		display: block;
+	}
+	
+	.glconfsecspeakers {
+		background: #f06450;
+		color: #fdfdfd;
+		padding: 3em 1em 3.5em;
+	}
+	
+	.glconfseclocation {
+		padding: 3em 1em 3.5em;
+	}
+	
+	.glconfseclocation h2 span {
+		font-size: 30px;
+		display: block;
+	}
+	
+	.glconfseclocation ul li {
+		margin-left: 45px;
+	}
+}

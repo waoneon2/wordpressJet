@@ -1,0 +1,78 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Semibold';
+    src: url('../fonts/opensans-semibold-webfont.eot');
+    src: url('../fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-semibold-webfont.woff') format('woff'),
+         url('../fonts/opensans-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('../fonts/opensans-bold-webfont.eot');
+    src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff'),
+         url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'CrimsonText Italic';
+	src: url('../fonts/CrimsonText-Italic.eot') format('eot');
+	src: url('../fonts/CrimsonText-Italic.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/CrimsonText-Italic.woff') format('woff'), 
+	     url('../fonts/CrimsonText-Italic.ttf')  format('truetype'),
+	     url('../fonts/CrimsonText-Italic.svg#CrimsonText-Italic') format('svg');
+	font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'CrimsonText Semibold Italic';
+	src: url('../fonts/CrimsonText-SemiboldItalic.eot') format('eot');
+	src: url('../fonts/CrimsonText-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/CrimsonText-SemiboldItalic.woff') format('woff'), 
+	     url('../fonts/CrimsonText-SemiboldItalic.ttf')  format('truetype'),
+	     url('../fonts/CrimsonText-SemiboldItalic.svg#CrimsonText-SemiboldItalic') format('svg');
+	font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'DroidSerif Italic';
+	src: url('../fonts/DroidSerif-Italic.eot') format('eot');
+	src: url('../fonts/DroidSerif-Italic.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/DroidSerif-Italic.woff') format('woff'), 
+	     url('../fonts/DroidSerif-Italic.ttf')  format('truetype'),
+	     url('../fonts/DroidSerif-Italic.svg#DroidSerif-Italic') format('svg');
+	font-weight: normal;
+    font-style: normal;
+}
+

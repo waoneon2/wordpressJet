@@ -1,0 +1,14 @@
+.table-staff th {
+	width: 80%;
+}
+
+.table-staff input,
+.table-staff textarea,
+.table-staff select {
+	width: 100%;
+}
+
+.table-staff .description {
+	color: #959595;
+	font-weight: 400;
+}

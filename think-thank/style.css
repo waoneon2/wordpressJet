@@ -1,0 +1,113 @@
+/*
+ Theme Name:   Think Thank
+ Theme URI:    http://event-theme.com/themes/uniset
+ Description:  Multi-Concept Landing Pages WordPress Child Theme
+ Author:       jThemes
+ Author URI:   https://themeforest.net/user/jThemes
+ Template:     uniset
+ Version:      1.0.0
+ License:      GNU General Public License version 3.0
+ License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+ Tags:         custom-background, threaded-comments, custom-menu, featured-images, full-width-template, theme-options, translation-ready
+ Text Domain:  think-thank
+*/
+nav.navbar.bg-light{
+    background-color: #012A46 !important;
+}
+nav.navbar.bg-light a {
+    color: #A6AFB3;
+}
+body.single.single-post div#sidebar {
+    margin-top: 95px;
+}
+.footer .newsletter-form .form-control:focus, 
+.footer-widget-area .tnp-widget-minimal input.tnp-email:focus, 
+.footer-widget-area .tnp-widget-minimal input.tnp-submit, 
+.contact-form .form-control:focus, 
+.wpcf7 .form-control:focus, 
+.newsletter-form .btn, 
+.tnp-field.tnp-field-button .tnp-button, 
+.newsletter-form .form-control:focus, 
+.tnp-field.tnp-field-email .tnp-email:focus, 
+.comment-form .form-control:focus, 
+#search-field .form-control:focus, 
+.search-form .search-submit, 
+.search-form .search-field:focus, 
+.cbp-filter-item-active, 
+#filters-container.cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active, 
+.portfolio-filter.green-btngroup .btn-group > .btn.active, 
+.portfolio-filter.green-btngroup .btn-group > .btn.focus, 
+#content-16 .list-group-item.active {
+    border-color: #97C848 !important;
+}
+.post-meta.sticky-posts, 
+.footer-widget-area .tnp-widget-minimal input.tnp-submit, 
+.tnp-field.tnp-field-button .tnp-button, 
+.btn-reply a:hover, 
+.search-form .search-submit, 
+#filters-container.cbp-l-filters-button .cbp-filter-counter, 
+.cbp-filter-item-active, 
+#filters-container.cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active, 
+.portfolio-filter.green-btngroup .btn-group > .btn.active, 
+.portfolio-filter.green-btngroup .btn-group > .btn.focus, 
+#content-16 .list-group-item.active, 
+.green-nav .owl-theme .owl-nav [class*="owl-next"], 
+.testimonials.green-nav.owl-theme .owl-nav [class*="owl-next"], 
+.bg-green {
+    background-color: #97C848 !important;
+}
+nav.navbar.bg-light .navbar-brand img {
+    display: block;
+    position: absolute;
+    top: 35%;
+}
+nav.navbar .tagline {
+    margin-left: 115px;
+    font-size: 13px;
+    color: #fff;
+}
+blockquote {
+    background-color: #012A46 !important;
+}
+div#daring_row {
+    top: -35px;
+}
+div#daring_row .wpb_column .vc_column-inner {
+	padding-top: 18px;
+}
+div#on_service_list ul {
+    list-style: none;
+    padding-left: 21px;
+}
+div.row.bottom-footer div.footer-socials {
+	padding-right: 100px;
+}
+div.row.bottom-footer div.footer-socials ul li {
+    border: 1px solid #AEC80F;
+    background-color: #AEC80F;
+    margin-right: 13px;
+}
+div.row.bottom-footer div.footer-socials ul li:last-child {
+	margin-right: 0;
+}
+div.row.bottom-footer div.footer-socials ul li a i {
+    padding: 6px 0px;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+div.row.bottom-footer div.footer-socials ul li a i.fa.fa-instagram, 
+div.row.bottom-footer div.footer-socials ul li a i.fa.fa-linkedin {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+div.row.bottom-footer div.footer-socials ul li a i.fa.fa-facebook {
+    padding-left: 5px;
+    padding-right: 6px;
+}
+div.main_footer.footer.division {
+	background-color: #012A46;
+}
+div.footer-socials-copyright {
+	background-color: #00141F;
+	border-top: 2px solid #ffffff;
+}

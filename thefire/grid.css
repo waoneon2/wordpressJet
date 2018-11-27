@@ -1,0 +1,1336 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+
+/* Table of Contents
+==================================================
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+
+
+
+/* #Base 1200 Grid
+================================================== */
+	
+
+	.entry-content iframe {
+		width:100% !important	
+	}
+	
+		
+
+/* #960
+================================================== */
+
+    /* Note: Design for a width of 960px */	
+
+	@media only screen and (max-width: 1169px) {
+        
+		.entry-content iframe {
+			width:100% !important	
+		}
+		
+		.registry-home form input[type="text"], .registry-home form input[type="email"] {
+			background-image: none;
+			width: 90% !important;
+		}
+		
+		.registry-home .fsBody {
+			width: 320px;
+		}
+
+		.flex-control-thumbs li {
+			border: 5px solid #9C1014;
+			height: 40px;
+			margin: 15px 15px 0 0;
+			width: 40px;
+		}
+		
+		.flex-control-nav {
+			bottom: -107px;
+		}
+		
+		.wrapper, .featured-content-home, .grid, .support, .category-posts ul {  
+			width:960px; 
+		}
+		
+		.category-posts .item {
+			width: 455px;
+		}
+		
+		.category-posts .item .thumbnail, .category-posts .item .thumbnail img {
+			height: 125px;
+			width: 125px;
+		}
+		
+		.category-posts .item .text {
+			width: 300px;
+		}
+
+		.banner-home {
+			width:664px;	
+		}
+		
+		.maps-home #maps-for-finding-your-school {
+			right: 0;
+		}
+		
+		.maps-home header, .maps-home p, .maps-home form {
+			margin-left: 0px;
+		}
+		 
+		.site-subscribe {
+    		left: 360px;
+    		max-width: 200px;
+		}
+		
+		.site-subscribe .fsFieldRow input[type="email"] {
+			font-size:12px !important;
+			width:150px !important;
+		}
+		
+		.fsSubmit input.fsSubmitButton {
+			font-size: 12px !important;
+			width: 178px; 
+			
+		}
+		
+		.site-social-bookmarking .button {
+			height: 47px;
+			line-height: 45px;
+			padding: 0 35px;
+		}
+		
+		.site-social-bookmarking a {
+			height: 45px;
+			width: 45px;
+		}
+		
+		.grid header, .grid .item, .grid footer {
+			width: 320px;
+			height: 320px;
+		}
+		
+		.grid header {
+			width: 256px;
+			height: 320px;
+		}
+		
+		.grid .grid-topic {
+			width: 220px;
+			height: 320px;
+    	padding: 0 50px 0;
+		}
+		
+		.grid-thumb img {
+			min-height: 320px !important;
+			width: 320px;
+		}
+
+		.grid-thumb a.play img {
+			min-height: 117px !important;
+		}
+		
+		.grid .grid-long-2x1, .grid .grid-long-1x1 {
+			height: 320px;
+			width: 640px;
+		}
+		
+		.grid .grid-long-2x1 figure, .grid .grid-long-2x1 figure a, .grid .grid-long-2x1 figure img {
+			height: 160px;
+			width: 640px;
+		}
+		
+		.grid .grid-long-1x1 figure, .grid .grid-long-1x1 figure a, .grid .grid-long-1x1 figure img {
+			height: 320px;
+			width: 640px;
+		}
+		
+		.registry-home form input[type="text"] {
+			width: 294px;
+		}
+		
+		.registry-home section {
+			width:555px;	
+		}
+		
+		.support p {
+			font-size: 24px;
+			width: 700px;
+		}
+		
+		.support a {
+			font-size: 23px;
+			padding-left: 30px;
+			width: 190px;
+		}
+		
+		.supp-navigation li {
+			margin-right: 41px;
+		}
+		
+		.nav-menu li a {
+			padding: 0 12px;
+			font-size:14px !important;
+		}
+		
+		.site-search input[type="text"] {
+			width: 195px;
+			font-size:11px;
+		}
+		
+		.sidebar-container {
+			width: 300px;
+		}
+		
+		.content-area {
+			width: 650px;
+		}
+		
+		.banner-home .item figure, .banner-home .item figure img {
+			width: 664px;
+		}
+
+    }
+
+	
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+		
+		.entry-content iframe {
+			width:100% !important	
+		}
+	
+		.banner-home .item figure, .banner-home .item figure img {
+			width: 538px;
+		}
+
+		.site-subscribe {
+			display:none;	
+		}
+		
+		.sidebar-inner .nav-menu > li > a {
+			width:81%;
+			font-size:20px;
+		}
+		
+		.sidebar-inner .nav-menu > li ul li a {
+			font-size:20px;	
+		}
+		
+		.registry-home .fsBody {
+			width: 240px;
+		}
+		
+		.flex-control-nav {
+			width: 100%;
+		}
+		
+		.featured-content-home footer a {
+			display:none;	
+		}
+		
+       	.wrapper, .featured-content-home, .grid, .support, .category-posts ul {  
+			width:748px; 
+			padding: 0 10px;
+		}
+		
+		.category-posts .item {
+			width: 359px;
+		}
+		
+		.category-posts .item .thumbnail, .category-posts .item .thumbnail img {
+			height: 100px;
+			width: 100px;
+		}
+		
+		.category-posts .item .text {
+			width: 229px;
+		}
+		
+		.category-posts .item .text a {
+			font-size: 18px;
+		}
+		
+		.ui-tabs .ui-tabs-nav li a {
+			padding: 0.5em 20px !important;
+		}
+		
+		.ui-tabs .ui-tabs-nav li.ui-state-active a {
+			padding: 1em 20px !important;
+		}
+
+		.banner-home {
+			width:538px;	
+			margin: 30px 0 30px 230px;
+		}
+		
+		.home .nav-menu {
+			width: 200px;
+		}
+		
+		.maps-home #maps-for-finding-your-school {
+			right: 0;
+		}
+		
+		.maps-home header, .maps-home p, .maps-home form {
+			margin-left: 0px;
+			text-align:left;
+			width: 380px;
+		}
+		
+		.site-subscribe, .site-search, .site-footer, .maps-home form span {
+			display:none !important;	
+		}
+		
+		.maps-home #maps-for-finding-your-school {
+			width: 380px;
+			height: 250px;
+			top:50px;
+		}
+
+		#page-find-your-school #maps-for-finding-your-school {
+			height: 450px;
+			width: 786px;
+		}
+		
+		.grid header, .grid .item, .grid footer {
+			width: 246px;
+			height: 256px;
+		}
+		
+		.grid header {
+			width: 182px;
+			height: 256px;
+			padding: 0 32px 0;
+			font-size: 24px;
+		}
+		
+		.grid .grid-topic {
+			height: 256px;
+			padding: 0 50px 0;
+			width: 146px;
+		}
+		
+		.grid .grid-topic, .grid .grid-topic a {
+			font-size: 17px;
+		}
+		
+		.grid .item h1 {
+			line-height:14px;	
+		}
+		
+		.grid-thumb img {
+			min-height: 256px !important;
+			width: 256px;
+		}
+		
+		.grid .grid-long-2x1, .grid .grid-long-1x1 {
+			height: 256px;
+			width: 512px;
+		}
+		
+		.grid .grid-long-2x1 figure, .grid .grid-long-2x1 figure a, .grid .grid-long-2x1 figure img {
+			height: 128px;
+			width: 512px;
+		}
+		
+		.grid .grid-long-1x1 figure, .grid .grid-long-1x1 figure a, .grid .grid-long-1x1 figure img {
+			height: 256px;
+			width: 512px;
+		}
+		
+		.registry-home form input[type="text"] {
+			width: 230px;
+		}
+		
+		.registry-home form input[type="submit"] {
+			padding: 0 17px;
+		}
+		
+		.registry-home section {
+			width:430px;	
+		}
+		
+		.support {
+			height: 100px;
+		}
+		
+		.support p {
+			font-size: 17px;
+			width: 510px;
+			line-height: 100px;
+		}
+		
+		.support a {
+			font-size: 20px;
+			padding-left: 30px;
+			width: 168px;
+			line-height: 100px;
+		}
+		
+		.supp-navigation li {
+			margin-right: 41px;
+		}
+		
+		.nav-menu li a {
+			padding: 0 12px;
+			font-size:17px;
+		}
+		
+		.site-search input[type="text"] {
+			width: 195px;
+			font-size:11px;
+		}
+		
+		.sidebar-container {
+			width: 220px;
+		}
+		
+		.content-area {
+			width: 510px;
+		}
+		
+		.site-social-bookmarking .button {
+			height: 47px;
+			line-height: 45px;
+			padding: 0 35px;
+		}
+		
+		.site-social-bookmarking a {
+			height: 45px;
+			width: 45px;
+		}
+		
+		.home-link {
+			height: 138px;
+			width: 293px;
+			margin-bottom: 29px;
+		}
+		
+		.featured-content-home header {
+			margin: 0 14px;
+		}
+		
+		.banner-home .item h1, .banner-home .item h1 a {
+			font-size: 20px;
+		}
+		
+		.grid .grid-long-2x1 h1, .grid .grid-long-2x1 h1 a, .grid .grid-long-1x1 h1, .grid .grid-long-1x1 h1 a {
+			font-size: 14px;
+		}
+		
+		.category-meta, .search-label, .archives-label {
+			font-size: 19px;
+		}
+		
+		.popular-posts .grid-topic p {
+			margin-top: -45px;
+		}
+		
+		.grid .grid-topic p, .grid .grid-topic p a, .grid .grid-thumb .item-text h1 a, .grid header span {
+			font-size: 14px;
+		}
+		
+		
+
+    }
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+        .container { width: 300px; }
+        .container .columns,
+        .container .column { margin: 0; }
+
+        .container .one.column,
+        .container .one.columns,
+        .container .two.columns,
+        .container .three.columns,
+        .container .four.columns,
+        .container .five.columns,
+        .container .six.columns,
+        .container .seven.columns,
+        .container .eight.columns,
+        .container .nine.columns,
+        .container .ten.columns,
+        .container .eleven.columns,
+        .container .twelve.columns,
+        .container .thirteen.columns,
+        .container .fourteen.columns,
+        .container .fifteen.columns,
+        .container .sixteen.columns,
+        .container .one-third.column,
+        .container .two-thirds.column  { width: 300px; }
+		
+        /* Offsets */
+        .container .offset-by-one,
+        .container .offset-by-two,
+        .container .offset-by-three,
+        .container .offset-by-four,
+        .container .offset-by-five,
+        .container .offset-by-six,
+        .container .offset-by-seven,
+        .container .offset-by-eight,
+        .container .offset-by-nine,
+        .container .offset-by-ten,
+        .container .offset-by-eleven,
+        .container .offset-by-twelve,
+        .container .offset-by-thirteen,
+        .container .offset-by-fourteen,
+        .container .offset-by-fifteen { padding-left: 0; }
+		
+		.entry-content iframe {
+			width:300px !important	
+		}
+		
+		.site-subscribe {
+			display:none;	
+		}
+		 
+		.sidebar-container {
+			float: left;
+			width:100%;
+		}
+		
+		.grid .item h1 {
+			line-height:6px;	
+		}		
+		
+		.grid-thumb a.play img {
+			height: 80px !important;
+			min-height: 80px !important;
+			width: 80px !important;
+			margin: -40px 0 0 -40px;
+		}
+		
+		#page-find-your-school form h3 {
+			font-size: 20px;
+		}
+		
+		#page-find-your-school form .selector strong, #page-find-your-school form input[type="text"] {
+			font-size: 13px;
+		}
+		
+		#page-find-your-school form input[type="submit"] {
+			width: 80px;
+		}
+		
+		.grid .grid-thumb .item-text {
+			padding: 10px;
+			line-height:12px;
+		}
+		
+		.category-header, .search-page-header, .archives-page-header {
+			height:120px;	
+		}
+		
+		.category-title, .search-label, .archives-label {
+			padding: 65px 0 0;
+		}
+		
+		.category-title, .category-meta, .search-label, .search-keywords, .archives-label, .archives-date {
+			font-size:24px;	
+		}
+		
+		.smallbuttons > div  {
+			width:80% !important;
+			margin: 10px 0 0 0;	
+		}
+		
+		.formItem label {
+			font-size: 12px;
+		}
+		
+		#SubmitButton {
+			font-size:14px !important;	
+		}
+		
+		.registry-home .fsBody {
+			width: 300px;
+		}
+		
+		#page-find-your-school form {
+			width: 100%;
+		}
+		
+		#page-find-your-school form input[type="text"] {
+			width: 192px;
+		}
+		
+		#page-find-your-school form .selector {
+			width: 220px;
+		}
+
+		.wrapper, .featured-content-home, .grid, .support, .category-posts ul {  
+			width:300px; 
+		}
+		
+		.banner-home .item figure img {
+			height: auto;
+			min-height:200px;
+			width: 300px;
+		}
+		
+		.category-posts .item {
+			margin: 0 0 50px;
+    		width: 300px;
+			height:auto;
+		}
+		
+		.category-posts .item .thumbnail, .category-posts .item .thumbnail img {
+			height: 60px;
+			width: 60px;
+		}
+		
+		.category-posts .item .text {
+			width: 210px;
+		}
+		
+		.category-posts .item .text a {
+			font-size: 16px;
+		}
+		
+		.ui-tabs .ui-tabs-nav li a {
+			font-size: 14px;
+    		padding: 0.5em 5px !important;
+		}
+		
+		.ui-tabs .ui-tabs-nav li.ui-state-active a {
+			padding: 1em 5px !important;
+		}
+		
+		.single .ui-tabs .ui-tabs-nav li {
+			margin-top: 15px !important;
+		}
+		
+		.ui-tabs .ui-tabs-nav li.ui-state-active {
+			margin-top: 0 !important;
+		}
+
+		.banner-home, .slider {
+			width:300px;
+			height:200px;	
+			margin: 0;
+		}
+		
+		.banner-home {
+			margin: 20px 0;	
+		}
+		
+		.flexslider, .flex-viewport, .flexslider .slides > li {
+			height:200px;	
+		}
+
+		
+		.home .nav-menu {
+			width: 200px;
+		}
+		
+		.maps-home #maps-for-finding-your-school {
+			right: 0;
+		}
+		
+		.maps-home header, .maps-home p, .maps-home form {
+			margin-left: 0;
+			margin-bottom: 40px;
+			width:300px;
+			font-size: 35px;
+		}
+		
+		.maps-home form span {
+			margin: 25px 20px 0 0;
+		}
+		
+		.sidebar-inner aside, .grid header span, .categories-links, .site-subscribe, .site-footer, #maps-for-finding-your-school, .ico_facebook, .ico_youtube, .ico_twitter, .ico_rss, .support, .featured-content-home, .flex-control-nav, .maps-home form span, .grid .arrow {
+			display:none !important;	
+		}
+		
+		.nav-menu {
+			display:none;	
+		}
+		
+		.sidebar-container .nav-menu {
+			display:inline;	
+		}
+		
+		.grid header, .grid .item, .grid footer {
+			width: 150px;
+			height: 150px;
+		}
+
+		.grid footer a{
+			font-size: 16px;
+			padding: 0;
+			background: none;
+			width: auto;
+			text-align: center;
+		}
+
+		.grid footer a:after{
+			content: ' >';
+		}
+		
+		.grid header {
+			width: 86px;
+			height: 150px;
+			padding: 0 32px 0;
+			font-size: 24px;
+		}
+		
+		.grid.defend-home header, .grid.defend-home footer, .grid.video-home header, .grid.video-home footer {
+			width: 236px;
+			height:80px;
+			padding: 40px 32px;
+		}
+		
+		.grid.defend-home footer a, .grid.video-home footer a{
+			margin: 0 auto;
+		}
+
+		.grid .grid-topic {
+			height: 150px;
+			padding: 0 20px 0;
+			width: 110px;
+		}
+		
+		.grid .grid-topic, .grid .grid-topic a {
+			font-size: 12px;
+		}
+		
+		.grid-thumb img {
+			min-height: 150px !important;
+			width: 150px;
+		}
+		
+		.grid .grid-long-2x1, .grid .grid-long-1x1 {
+			height: 200px;
+			width: 300px;
+		}
+		
+		.grid .grid-long-2x1 figure, .grid .grid-long-2x1 figure a, .grid .grid-long-2x1 figure img {
+			height: 100px;
+			width: 300px;
+		}
+		
+		.grid .grid-long-1x1 figure, .grid .grid-long-1x1 figure a, .grid .grid-long-1x1 figure img {
+			height: 200px;
+			width: 300px;
+		}
+		
+		.grid .grid-topic .more, .grid .grid-thumb .more, .popular-posts header .more {
+			margin-top: 5px !important;
+			padding: 5px;
+		}
+
+		.recent-home .grid-topic-right h1 {
+			line-height: 8px;
+		}
+		
+		.registry-home form input[type="text"] {
+			width: 230px;
+		}
+		
+		.registry-home form input[type="submit"] {
+			padding: 0 17px;
+		}
+		
+		.registry-home section {
+			width:240px;
+			margin: 30px 0 0;	
+		}
+
+		.registry-home form {
+			float: right;
+			margin: 30px 21px;
+		}
+		
+		.aboutus-home section header {
+			margin: 0 0 20px;
+		}
+
+		.aboutus-home section footer {
+			margin: 0 63px;
+		}
+		
+		.supp-navigation li {
+			margin-right: 41px;
+		}
+
+		.maps-home form input {
+			width: 274px;
+		}
+		
+		.maps-home form .selector {
+			width: 300px;
+		}
+		
+		.nav-menu li a {
+			padding: 0 12px;
+			font-size:17px;
+		}
+		
+		.site-search {
+			padding: 8px 0;
+		}
+
+		.site-search input[type="text"] {
+			width: 80px;
+			font-size:11px;
+			height: 25px;
+		}
+
+		.site-search input[type="submit"] {
+			height: 25px;
+		}
+		
+		.responsiveMenuSelect {
+			width:140px !important;	
+		}
+		
+		.content-area {
+			width: 300px;
+		}
+		
+		.site-social-bookmarking {
+			top: 50px;
+		}
+		
+		.site-social-bookmarking .button {
+			font-size: 15px;
+			height: 32px;
+			line-height: 30px;
+			padding: 0 12px;
+		}
+		
+		.site-social-bookmarking a {
+			height: 45px;
+			width: 45px;
+		}
+		
+		.home-link {
+			height: 80px;
+			margin-bottom: 48px;
+			width: 170px;
+		}
+		
+		.featured-content-home header {
+			margin: 0 14px;
+		}
+		
+		.banner-home .item h1, .banner-home .item h1 a {
+			font-size: 12px;
+			margin: 0;
+		}
+		
+		.aboutus-home section p {
+			margin: 0;
+		}
+		
+		.grid .grid-long-2x1 h1, .grid .grid-long-2x1 h1 a, .grid .grid-long-1x1 h1, .grid .grid-long-1x1 h1 a {
+			font-size: 12px;
+			margin: 0;
+		}
+		
+		.grid .grid-long-2x1 h1{
+			padding: 10px;
+		}
+		
+		.category-posts {
+			-webkit-background-size: cover !important;
+  			-moz-background-size: cover !important;
+  			background-size: cover !important;
+		}
+		
+		.category-posts .wrapper {
+			height: auto;
+			overflow: visible;
+			padding-top: 30px;
+			position: relative;
+		}
+		
+		.category-posts footer {
+			position: relative;
+		}
+		
+		.category-meta, .search-label, .archives-label {
+			font-size: 15px;
+		}
+		
+		.popular-posts .grid-topic p {
+			display:none;
+		}
+		
+		.grid .grid-topic p, .grid .grid-topic p a, .grid .grid-thumb .item-text h1 a, .grid header span {
+			font-size: 12px;
+			line-height: 12px;
+		}
+		
+		.video-home .grid-topic-right h1 {
+			line-height: 14px;
+		}
+		
+		.site-header {
+			background-position:0 150px !important;
+			height: 200px;
+		}
+		
+		.site-header {
+			z-index:222222223;
+			position:relative;	
+			font-size: 35px !important;
+		}
+		
+		.nav-menu, .home .nav-menu {
+			width:200px;
+			height:auto;
+			margin:0;
+			position:absolute;
+			left:0;
+			top:0;
+			top: 200px;
+			z-index:1;
+			background:none;
+			padding:0;
+		}
+		
+		.nav-menu ul, .nav-menu li, .nav-menu li a,
+		.home .nav-menu ul, .home .nav-menu li, .home .nav-menu li a {
+			display: block;
+			width:180px;
+			float: left;
+			height: 45px;
+			font-size: 14px;
+			line-height: 44px;
+			color: #fff;
+			background:#DE2027;
+		}
+		
+		.sidebar-container .nav-menu ul, .sidebar-container .nav-menu li, .sidebar-container .nav-menu li a, .home .sidebar-container .nav-menu ul, .home .sidebar-container .nav-menu li, .home .sidebar-container .nav-menu li a {
+			background: none;
+			width:270px;
+		}
+		
+		.sidebar-inner .nav-menu > li > a {
+			background: url("images/nav-home-arrow.png") no-repeat scroll 90% center #000000;	
+		}
+		
+		.sidebar-inner .nav-menu  {
+			top:0;	
+		}
+		
+		.search-list .item h1, .posts-list .item h1, .item h1 {
+			font-size: 20px;
+		}
+		#slideout {
+			display: none;
+		}		
+		
+    }
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        
+		.entry-content iframe {
+			width:420px !important	
+		}
+		
+		.registry-home .fsBody {
+			width: 420px;
+		}
+		
+		#page-find-your-school form input[type="text"] {
+			width: 312px;
+		}
+		
+		#page-find-your-school form .selector {
+			width: 340px;
+		}
+		
+		.wrapper, .featured-content-home, .grid, .support, .category-posts ul {  
+			width:420px; 
+		}
+		
+		.banner-home .item figure img {
+			height: auto;
+			min-height:200px;
+			width: 420px;
+		}
+		
+		.category-posts .item {
+			width: 359px;
+		}
+		
+		.category-posts .item .thumbnail, .category-posts .item .thumbnail img {
+			height: 100px;
+			width: 100px;
+		}
+		
+		.category-posts .item .text {
+			width: 229px;
+		}
+		
+		.category-posts .item .text a {
+			font-size: 18px;
+		}
+		
+		.ui-tabs .ui-tabs-nav li a {
+			font-size: 14px;
+    		padding: 0.5em 5px !important;
+		}
+		
+		.ui-tabs .ui-tabs-nav li.ui-state-active a {
+			padding: 1em 5px !important;
+		}
+		
+		.single .ui-tabs .ui-tabs-nav li {
+			margin-top: 15px !important;
+		}
+		
+		.ui-tabs .ui-tabs-nav li.ui-state-active {
+			margin-top: 0 !important;
+		}
+
+		.banner-home, .slider {
+			width:420px;
+			height:200px;	
+			margin: 0;
+		}
+		
+		.banner-home {
+			margin: 20px 0;	
+		}
+		
+		.flexslider, .flex-viewport, .flexslider .slides > li {
+			height:200px;	
+		}
+
+		
+		.home .nav-menu {
+			width: 200px;
+		}
+		
+		.maps-home #maps-for-finding-your-school {
+			right: 0;
+		}
+		
+		.maps-home header, .maps-home p, .maps-home form {
+			margin-left: 0;
+			margin-bottom: 40px;
+			width:420px;
+		}
+		
+		.maps-home form span {
+			margin: 25px 20px 0 0;
+		}
+		
+		.sidebar-inner aside, .site-subscribe, .site-footer, #maps-for-finding-your-school, .ico_facebook, .ico_youtube, .ico_twitter, .ico_rss, .support, .featured-content-home, .flex-control-nav {
+			display:none !important;	
+		}
+		
+		.nav-menu {
+			display:none;	
+		}
+		
+		.maps-home form span {
+			display:inline !important;	
+		}
+		
+		.grid header, .grid .item, .grid footer {
+			width: 210px;
+			height: 210px;
+			font-size: 24px;
+		}
+		
+		.grid header {
+			width: 146px;
+			height: 210px;
+			padding: 0 32px 0;
+			font-size: 24px;
+		}
+		
+		.grid.defend-home header, .grid.defend-home footer, .grid.video-home header, .grid.video-home footer {
+			width: 356px;
+			height: 140px;
+			padding: 0 32px 20px;
+		}
+		
+		.grid.defend-home footer a, .grid.video-home footer a{
+			margin: 0 auto;
+		}
+		
+		.grid .grid-topic {
+			padding: 0 20px 0;
+			width:170px;
+			height: 210px;
+		}
+		
+		.grid .grid-topic, .grid .grid-topic a {
+			font-size: 12px;
+		}
+		
+		.grid-thumb img {
+			min-height: 210px !important;
+			width: 210px;
+		}
+		
+		.grid .grid-long-2x1, .grid .grid-long-1x1 {
+			height: 256px;
+			width: 420px;
+		}
+		
+		.grid .grid-long-2x1 figure, .grid .grid-long-2x1 figure a, .grid .grid-long-2x1 figure img {
+			height: 128px;
+			width: 420px;
+		}
+		
+		.grid .grid-long-1x1 figure, .grid .grid-long-1x1 figure a, .grid .grid-long-1x1 figure img {
+			height: 256px;
+			width: 420px;
+		}
+		
+		.grid h1 {
+			font-size: 12px;
+    		line-height: 14px;
+		}
+		
+		.grid .grid-thumb .item-text {
+			padding: 20px;
+		}
+		
+		.recent-home .grid-topic-left h1 {
+			line-height: 20px;
+		}
+		
+		.recent-home .grid-topic-right h1 {
+			line-height: 20px;
+		}
+		
+		.grid .grid-topic .more, .grid .grid-thumb .more, .popular-posts header .more {
+			margin-top: 0;
+		}
+		
+		.grid footer a {
+			margin: 0 auto 0;
+			font-size:28px;
+		}
+		
+		.registry-home form input[type="text"] {
+			width: 230px;
+		}
+		
+		.registry-home form input[type="submit"] {
+			padding: 0 17px;
+		}
+		
+		.registry-home section {
+			width:360px;
+			margin: 30px 0 0;	
+		}
+
+		.registry-home form {
+			float: right;
+			margin: 30px 81px;
+		}
+		
+		.supp-navigation li {
+			margin-right: 41px;
+		}
+		
+		.nav-menu li a {
+			padding: 0 12px;
+			font-size:17px;
+		}
+		
+		.site-search {
+			padding: 8px 0;
+		}
+
+		.site-search input[type="text"] {
+			width: 115px;
+			font-size:11px;
+			height: 25px;
+		}
+
+		.site-search input[type="submit"] {
+			height: 25px;
+		}
+		
+		.content-area {
+			width: 420px;
+		}
+		
+		.site-social-bookmarking {
+			top: 57px;
+		}
+		
+		.site-social-bookmarking .button {
+			height: 39px;
+			line-height: 37px;
+			padding: 0 25px;
+		}
+		
+		.site-social-bookmarking a {
+			height: 45px;
+			width: 45px;
+		}
+		
+		.home-link {
+			height: 100px;
+			width: 212px;
+			margin-bottom: 29px;
+		}
+		
+		.featured-content-home header {
+			margin: 0 14px;
+		}
+		
+		.banner-home .item h1, .banner-home .item h1 a {
+			font-size: 14px;
+			margin: 0;
+		}
+		
+		.aboutus-home section p {
+			margin: 0;
+		}
+		
+		.grid .grid-long-2x1 h1, .grid .grid-long-2x1 h1 a, .grid .grid-long-1x1 h1, .grid .grid-long-1x1 h1 a {
+			font-size: 14px;
+			margin: 0;
+		}
+		
+		.category-posts {
+			-webkit-background-size: cover !important;
+  			-moz-background-size: cover !important;
+  			background-size: cover !important;
+		}
+		
+		.category-posts .wrapper {
+			height: auto;
+			overflow: visible;
+			padding-top: 30px;
+			position: relative;
+		}
+		
+		.category-posts footer {
+			position: relative;
+		}
+		
+		.category-meta, .search-label, .archives-label {
+			font-size: 15px;
+		}
+		
+		.popular-posts .grid-topic p {
+			margin-top: -45px;
+		}
+		
+		.grid .grid-topic p, .grid .grid-topic p a, .grid .grid-thumb .item-text h1 a, .grid header span {
+			font-size: 12px;
+		}
+		
+		.site-header {
+			background-position:0 150px !important;
+			height: 200px;
+		}
+		
+		.site-header {
+			z-index:222222223;
+			position:relative;	
+		}
+		
+		.nav-menu, .home .nav-menu {
+			width:200px;
+			height:auto;
+			margin:0;
+			position:absolute;
+			left:0;
+			top:0;
+			top: 200px;
+			z-index:1;
+			background:none;
+			padding:0;
+		}
+		
+		.nav-menu ul, .nav-menu li, .nav-menu li a,
+		.home .nav-menu ul, .home .nav-menu li, .home .nav-menu li a {
+			display: block;
+			width:180px;
+			float: left;
+			height: 45px;
+			font-size: 14px;
+			line-height: 44px;
+			color: #fff;
+			background:#DE2027;
+		}
+		
+		.sidebar-container .nav-menu ul, .sidebar-container .nav-menu li, .sidebar-container .nav-menu li a, .home .sidebar-container .nav-menu ul, .home .sidebar-container .nav-menu li, .home .sidebar-container .nav-menu li a {
+			background: none;
+			width:390px;
+		}
+		
+		.sidebar-inner .nav-menu > li > a {
+			background: url("images/nav-home-arrow.png") no-repeat scroll 90% center #000000;	
+		}
+		#slideout {
+			display: none;
+		}
+		
+    }
+
+
+/* #Clearing
+================================================== */
+
+    /* Self Clearing Goodness */
+    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }

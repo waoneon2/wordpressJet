@@ -1,0 +1,7 @@
+div.prgen_list_option div.list-up a:hover {
+	text-decoration: none;
+}
+.prgen_product_title a > span {
+	display: inline-block;
+	line-height: unset;
+}

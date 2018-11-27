@@ -1,0 +1,41 @@
+@charset "utf-8";
+.comm100-status-normal .comm100-normal,
+.comm100-status-submitting .comm100-submitting {
+	display: block;
+}
+.comm100-status-normal .comm100-submitting,
+.comm100-status-submitting .comm100-normal {
+	display: none;
+}
+.comm100-submitting{
+	padding:5px;
+}
+.comm100-submitting span {
+	vertical-align: middle;
+}
+.comm100-button-subscribe input {
+    font-size: 11px;
+}
+.comm100-required {
+	color:red;
+}
+.comm100-not-required {
+    display:none;
+}
+.comm100-poweredby {
+	font-size: smaller;
+}
+.comm100-icon {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+.comm100-icon-loading {
+	background: url('http://hosted.comm100.com/AdminPluginService/Images/ajax_loader.gif') no-repeat;
+}
+.comm100-validation-message {
+	display: none;
+}
+.comm100-hidden {
+    display:none;
+}

@@ -1,0 +1,29 @@
+<?php
+if (!$query_sidebar_navigator->have_posts()) return;
+	$i = 0; while ($query_sidebar_navigator->have_posts()): $query_sidebar_navigator->the_post();
+?>
+		<li<?php if($i == 0) echo ' class="first"';?>><a href="<?php the_permalink(); ?>"<?php if (get_the_ID() == $post_id) echo ' class="current"'; ?>><?php the_title();?></a></li>
+<?php	
+		if(count(get_post_ancestors($post_id)) > 1) {
+			$array = get_post_ancestors($post_id);
+			$selector = $array[0];
+		} else {
+			$selector = $post_id;
+		}
+
+		$child_pages = $wpdb->get_results("SELECT * FROM $wpdb->posts WHERE (post_parent = ".$selector.") AND post_type = 'page' AND post_status = 'publish' ORDER BY menu_order", 'OBJECT');
+
+		if ( $child_pages ) : 
+			foreach ( $child_pages as $pageChild ) : setup_postdata( $pageChild ); 
+				$child_meta = $wpdb->get_row("SELECT * FROM $wpdb->postmeta WHERE post_id = ".$pageChild->ID." AND meta_key = 'sidebar_navigator'", ARRAY_A);  
+				
+				if($child_meta['meta_value'] == 1 && get_the_ID() == $selector) {?>  
+					<li class="sub"><a href="<?php echo get_permalink($pageChild->ID); ?>"<?php if ($pageChild->ID == $post_id) echo ' class="current"'; ?>><?php echo $pageChild->post_title; ?></a></li><?php 	
+				}
+			endforeach; 
+		endif;
+
+		
+	$i++; endwhile;
+}
+?>
